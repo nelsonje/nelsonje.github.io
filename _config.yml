@@ -4,6 +4,8 @@ pygments: true
 
 base: ''
 
+exclude: [README.md]
+
 # Navigation bar links.
 navigation:
     - title: Home
