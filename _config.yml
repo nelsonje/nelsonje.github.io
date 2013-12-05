@@ -4,16 +4,16 @@ pygments: true
 
 base: ''
 
-exclude: [README.md]
+exclude: [README.md, Makefile]
 
 # Navigation bar links.
 navigation:
     - title: Home
-      link: /
+      link: index.html
     - title: Projects
-      link: /projects.html
+      link: projects.html
     - title: Curriculum Vitae
-      link: /cv.html
+      link: cv.html
     - title: Github
       link: https://github.com/bholt
-      icon: /img/GitHub-Mark-32px.png
+      icon: img/GitHub-Mark-32px.png

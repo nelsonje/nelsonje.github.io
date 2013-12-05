@@ -4,13 +4,13 @@
         <meta charset="utf-8">
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width, intial-scale=1.0">
-        <link href="{{ site.base }}/css/bootstrap.min.css" rel="stylesheet">
-        <!-- <link href="{{ site.base }}/css/bootstrap-theme.css" rel="stylesheet"> -->
-        <link href="{{ site.base }}/css/theme.css" rel="stylesheet">
+        <link href="{{ site.base }}css/bootstrap.min.css" rel="stylesheet">
+        <!-- <link href="{{ site.base }}css/bootstrap-theme.css" rel="stylesheet"> -->
+        <link href="{{ site.base }}css/theme.css" rel="stylesheet">
     </head>
     <body>
       <script src="https://code.jquery.com/jquery.js"></script>
-      <script src="{{ site.base }}/js/bootstrap.min.js"></script>
+      <script src="{{ site.base }}js/bootstrap.min.js"></script>
 
         <div class="container">
           <div class="header">
@@ -22,7 +22,7 @@
                   <a href="{{ site.base }}{{ item.link }}" >
                     
                     {% if item.icon %}
-                    <img src="{{ item.icon }}" class="icon-off" style="height:16px" />
+                    <img src="{{ site.base }}{{ item.icon }}" class="icon-off" style="height:16px" />
                     {% endif %}
                                         
                     {{ item.title }}
