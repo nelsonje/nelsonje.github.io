@@ -6,17 +6,9 @@ tagline: University of Washington
 
 <!-- ![profile](img/brandon_coast.jpg) -->
 <div class="span5 pull-right" style="padding-left:20px">
-  <img src="img/brandon_coast.jpg" class="img-polaroid"/>
-  <ul class="list-unstyled">
-    <li></li>
-    <li class="span10">
-      <span class="glyphicon glyphicon-open"></span>
-      <span class="glyphicon glyphicon-search"></span>
-      <div class="">
-        Follow what I'm coding on <a href="https://github.com/bholt">Github</a>
-      </div>
-    </li>
-  </ul>
+  <div>
+    <img src="img/brandon_coast.jpg" class="img-rounded"/>
+  </div>
 </div>
 
 ## About Me

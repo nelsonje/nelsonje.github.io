@@ -12,3 +12,6 @@ navigation:
       link: /projects.html
     - title: Curriculum Vitae
       link: /cv.html
+    - title: Github
+      link: https://github.com/bholt
+      icon: /img/GitHub-Mark-32px.png
