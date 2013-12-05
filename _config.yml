@@ -8,11 +8,7 @@ base: ''
 navigation:
     - title: Home
       link: /
-    - title: People
-      link: /people.html
-    - title: Research
-      link: /research/
-    - title: Publications
-      link: /publications.html
-    - title: Code
-      link: /code.html
+    - title: Projects
+      link: /projects.html
+    - title: Curriculum Vitae
+      link: /cv.html
