@@ -1,16 +1,22 @@
 ---
 layout: default
-title: "Curriculum Vitae"
-description: ""
+title: Brandon Holt
 ---
 
 ### Research Interests
 I am interested in helping programs scale from workstations up to huge machines in order to solve the biggest problems in data-intensive and scientific computing workloads. To tackle this problem I look to designing programming models and language features that express parallelism and locality, compilers that leverage that additional information to do aggressive optimization, and runtime systems that handle the dynamic optimizations to make use of the architecture’s full capabilities.
 
 ### Education
-* [University of Wisconsin - Eau Claire](http://uwec.edu) - Bachelor of Science - May 2011 - Majors: Computer Science (Comprehensive), Physics
+* [University of Washington](http://uw.edu) - [Department of Computer Science & Engineering](http://cs.washington.edu)
+  - PhD (in progress)
+  - **Advisors**: Luis Ceze & Mark Oskin
 
-* [University of Washington](http://uw.edu) - PhD. Candidate - [Department of Computer Science & Engineering](http://cs.washington.edu)
+
+* [University of Wisconsin - Eau Claire](http://uwec.edu)
+  - Bachelor of Science (May 2011)
+  - **Majors**: Computer Science, Physics & Astronomy
+  - **Advisor**: Dan Ernst
+
 
 *Honors:*
 
@@ -18,7 +24,7 @@ I am interested in helping programs scale from workstations up to huge machines 
 - [National Merit Scholarship](http://www.nationalmerit.org/nmsp.php) at University of Wisconsin - Eau Claire (2007-2011)
 - [John T. Carroll Scholarship](http://www.uwec.edu/Physics/academics/carroll.htm) at University of Wisconsin - Eau Claire (2010)
 
-### Publications:
+### Publications
 *Conference Papers:*
 
 - **[Flat Combining Synchronized Global Data Structures](papers/holt-pgas13.pdf)**. B. Holt, J. Nelson, B. Myers, P. Briggs, L. Ceze, S. Kahan, M. Oskin. *[7th International Conference on PGAS Programming Models (PGAS)](http://www.pgas2013.org.uk/)*. (October 2013).
@@ -34,13 +40,7 @@ I am interested in helping programs scale from workstations up to huge machines 
 - **[A Peer Review System to Enhance Collaborative Learning](http://mics.sdsmt.edu/proceedings/Paper/mics2009_submission_5.pdf)** L. Komiskey, B. Holt, J. Morrison, M. Morrison.  *[Midwestern Instruction and Computing Symposium](http://www.micsymposium.org/)*. (2009).
 
 
-**Mantle Convection Modeling Research** - Advised by Dr. Paul Thomas - August 2009-May 2011
-
-- Leveraged CitcomS modeling program to simulate a descending slab into the Mantle
-- Developed visualizations (using Mayavi) in order to understand the simulation output
-- Worked on a cross-disciplinary team with Physics and Geology faculty
-
-### Internship Experience:
+### Internship Experience
 **Research Intern** - Microsoft Research (Redmond) - Summer 2013
 
 - Worked on autotuning cluster-scale deep neural networks.
