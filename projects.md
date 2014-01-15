@@ -12,7 +12,7 @@ Starting Fall 2011 to now, I am working on a project at the University of Washin
 ### Flat combining
 
 
-- *Flat Combining Synchronized Global Data Structures* presented at [PGAS'13](http://pgas2013.org.uk) ([paper](pubs/holt-pgas13.pdf), [slides](pubs/holt-pgas13-slides.pdf), [keynote](pubs/holt-pgas13-slides.key))
+- *Flat Combining Synchronized Global Data Structures* presented at [PGAS'13](http://pgas2013.org.uk) ([paper](pubs/holt-pgas13.pdf), [slides](pubs/holt-pgas13-slides.pdf))
 - *Turning Contention Into Cooperation* - UW CSE Qualifying Examination Talk ([slides](pubs/holt-quals.pdf))
 
 ### Task migration simulation
