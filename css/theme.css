@@ -1,5 +1,8 @@
 /* Space out content a bit */
 body {
+/*  font-family: 'News Cycle', sans-serif;*/
+font-family: 'Helvetica Neue', sans-serif;
+  font-size: 14px;
   padding-top: 5px;
   padding-bottom: 10px;
 }
