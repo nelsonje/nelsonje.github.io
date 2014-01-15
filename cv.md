@@ -27,7 +27,7 @@ I am interested in helping programs scale from workstations up to huge machines 
 ### Publications
 *Conference Papers:*
 
-- **[Flat Combining Synchronized Global Data Structures](papers/holt-pgas13.pdf)**. B. Holt, J. Nelson, B. Myers, P. Briggs, L. Ceze, S. Kahan, M. Oskin. *[7th International Conference on PGAS Programming Models (PGAS)](http://www.pgas2013.org.uk/)*. (October 2013).
+- **[Flat Combining Synchronized Global Data Structures](pubs/holt-pgas13.pdf)**. B. Holt, J. Nelson, B. Myers, P. Briggs, L. Ceze, S. Kahan, M. Oskin. *[7th International Conference on PGAS Programming Models (PGAS)](http://www.pgas2013.org.uk/)*. (October 2013).
 
 *Workshop Papers:*
 
