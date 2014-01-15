@@ -12,7 +12,8 @@ Starting Fall 2011 to now, I am working on a project at the University of Washin
 ### Flat combining
 
 
-- *Flat Combining Synchronized Global Data Structures* presented at [PGAS'13](http://pgas2013.org.uk) ([paper](pubs/holt-pgas13.pdf), [slides](pubs/holt-pgas13-slides.pdf))
+- *Flat Combining Synchronized Global Data Structures* presented at [PGAS'13](http://pgas2013.org.uk) ([paper](pubs/holt-pgas13.pdf), [slides](pubs/holt-pgas13-slides.pdf), [keynote](pubs/holt-pgas13-slides.key))
+- *Turning Contention Into Cooperation* - UW CSE Qualifying Examination Talk ([slides](pubs/holt-quals.pdf))
 
 ### Task migration simulation
 [Brandon Myers](http://www.cs.washington.edu/homes/bdmyers/) and I submitted a workshop paper to [HotPar '12](https://www.usenix.org/conference/hotpar12) exploring whether it is possible to make profitable predictions about when to move a task its the data (migration) rather than moving the data. Our study involved instrumenting the shared memory accesses in a few simple benchmarks, collecting an execution trace, and simulating the cost of data movement under different migration policies, including an optimal migration schedule. More details can be found in the [paper](https://www.usenix.org/system/files/conference/hotpar12/hotpar12-final46.pdf).
