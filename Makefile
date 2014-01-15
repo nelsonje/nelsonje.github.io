@@ -24,4 +24,5 @@ PYTHON=python2.7
 CSEHOST := bicycle.cs.washington.edu
 deploy: BUILDARGS := --config _config.yml,_config_sandbox.yml
 deploy: clean all
+	jekyll build
 	rsync -avz -e ssh --delete _site/ $(CSEHOST):/cse/web/homes/bholt
