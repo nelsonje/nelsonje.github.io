@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projects
+title: Brandon Holt - Projects
 description: List of current and recent research and side projects.
 ---
 
