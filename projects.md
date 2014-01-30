@@ -7,9 +7,20 @@ description: List of current and recent research and side projects.
 ## [Grappa](http://grappa.io)
 <img src="img/grappa-grapes.jpg" class="img-thumbnail pull-right" style="width:250px;margin:15px"/>
 
-Starting Fall 2011 to now, I am working on a project at the University of Washington with several other grad students and faculty. The goal of the project is to enable efficient computation of irregular applications on commodity clusters (i.e. supercomputers). "Irregular applications" are those which accesses memory in unpredictable ways with little spatial or temporal locality, such as many graph analysis problems. These have traditionally performed terribly under the communication model of supercomputers and cloud datacenter resources which rely on doing as little communication over the high-latency network as possible. The machine that people interested in solving such problems as finding the most influential people in a social network have turned to the Cray XMT which has terabytes of RAM and special "Threadstorm" processors that enable massive parallelism which helps to hide the long latency. Our project, dubbed "Grappa", has the goal of duplicating the good performance the XMT gets on irregular applications through software alone. We are building a runtime system with lightweight user-level threading, delegation-based synchronization, memory request aggregation that should enable higher performance for irregular applications. Our group has published one paper describing and validating our method. This paper and more information can be found on our [project page](http://grappa.io).
+Scaling irregular applications on commodity hardware.
+
+Irregular applications are those that do lots of hard-to-predict, data-dependent, fine-grained memory accesses. Examples include graph analytics, molecular dynamics, circuit simulation, neuromorphic computation, and many more. The lack of spatial and temporal locality in these applications makes it difficult to scale them beyond a single node because commodity networks need large packets to get near their peak throughput. The goal of this project is to make it easier to develop and run those kinds of applications on large compute clusters. We see the same few tricks being implemented over and over when irregular applications are tuned for maximum performance, such as rewriting parts to buffer communication, using asynchronous callbacks to overlap communication and disk I/O with computation. In addition to being wasteful, this process can be error-prone.
+
+The core is a runtime system we are developing that automatically aggregates small messages to improve network bandwidth, using massive multithreading to tolerate the increased latency. All we ask is that the programmer expose *sufficient parallelism*, a quantity that is not lacking in these "Big Data" applications. Our highly-optimized runtime can then manage moving data and computation around the cluster, performing tricks such as issuing hardware pre-fetches and carefully managing the L1 cache, performing extremely lightweight context switches, and coordinating RDMA transfers to get maximum throughput on the network.
+
+A full list of publications for this project and more information can be found on our project website: [grappa.io](http://grappa.io).
+
+Grappa is also now **open source**! We would love to help people try it out on their own problems. Check it out on [Github](http://github.com/uwsampa/grappa).
+
+A couple sub-projects related to Grappa that I've worked on are listed below.
 
 ### Flat combining
+The general idea is that synchronization on global shared data structures can be massively improved by waiting and combining many operations together, and Grappa's massive multithreading allows us to tolerate this additional latency.
 
 - *Flat Combining Synchronized Global Data Structures* presented at [PGAS'13](http://www.pgas2013.org.uk) ([paper](pubs/holt-pgas13.pdf), [slides](pubs/holt-pgas13-slides.pdf))
 - *Turning Contention Into Cooperation* - UW CSE Qualifying Examination Talk ([slides](pubs/holt-quals.pdf))
