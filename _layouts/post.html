@@ -1,7 +1,29 @@
 ---
-layout: default
+layout: base
 ---
-<h2>{{ page.title }}</h2>
+<div class="header">
+  <ul class="nav nav-pills pull-right">
+    {% assign shorturl = '/posts.html' %}
+    {% for item in site.navigation %}
+      <li {% if item.link == shorturl %}class="active"{% endif %}>
+        <a href="{{ site.base }}{{ item.link }}" >
+          
+          {% if item.icon %}
+          <img src="{{ site.base }}{{ item.icon }}" class="icon-off" style="height:16px" />
+          {% endif %}
+                              
+          {{ item.title }}
+          
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+  <h2>Brandon Holt</h2>
+</div>
+
+
+
+<h1>{{ page.subtitle }}</h1>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
 <div class="post">
