@@ -1,10 +1,33 @@
 /* Space out content a bit */
 body {
 /*  font-family: 'News Cycle', sans-serif;*/
-font-family: 'Helvetica Neue', sans-serif;
-  font-size: 14px;
+/*  font-family: 'Helvetica Neue', sans-serif;*/
+  font-family: News Cycle, sans-serif;
+  font-size: 15px;
   padding-top: 5px;
   padding-bottom: 10px;
+}
+
+.highlight, pre, code {
+  font-family: Inconsolata, monospace;
+}
+
+div.header {
+  font-family: News Cycle;
+}
+div.header h2 {
+  font-family: News Cycle;
+  font-weight: normal;
+}
+
+
+h1, h2, h3 {
+font-family: News Cycle;
+  font-weight: bold;
+}
+
+code {
+  color: #222;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
