@@ -8,6 +8,8 @@ redcarpet:
 
 base: ''
 
+permalink: /posts/:title.html
+
 exclude: [README.md, Makefile]
 
 # Navigation bar links.
