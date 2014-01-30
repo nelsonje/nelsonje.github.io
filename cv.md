@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Brandon Holt - CV
+title: Curriculum Vitae
 ---
 
 ### Research Interests

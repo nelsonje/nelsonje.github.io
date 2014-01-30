@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Brandon Holt - Home
+title: Home
 tagline: University of Washington
 ---
 
