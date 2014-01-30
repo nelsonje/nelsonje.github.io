@@ -1,6 +1,10 @@
 name: Brandon Holt
 markdown: redcarpet  
 pygments: true
+highlighter: pygments
+
+redcarpet:
+    extensions: ["with_toc_data"]
 
 base: ''
 
