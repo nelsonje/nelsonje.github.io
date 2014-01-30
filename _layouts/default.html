@@ -7,7 +7,11 @@ layout: base
     {% assign shorturl = page.url | replace:'index.html','' %}
     {% for item in site.navigation %}
       <li {% if item.link == shorturl %}class="active"{% endif %}>
+        {% if item.link contains 'http' %}
+        <a href="{{ item.link }}">
+        {% else %}
         <a href="{{ site.base }}{{ item.link }}" >
+        {% endif %}
           
           {% if item.icon %}
           <img src="{{ site.base }}{{ item.icon }}" class="icon-off" style="height:20px" />
