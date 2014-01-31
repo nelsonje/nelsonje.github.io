@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building LLVM on OSX
-description: Notes from how I've built LLVM to be most useful for me.
+description: Notes from how I've built LLVM to be most useful for me (and maybe for you, too).
 ---
 
 I've had a lot of headaches building LLVM from source to suit my purposes. It's fairly straightforward to download a source distribution and get *something* built, but I've had to refine how I build LLVM so that things are setup to be useful for my workflow. Namely, I need:
@@ -73,8 +73,6 @@ set_target_properties( LLVMMyPass PROPERTIES COMPILE_FLAGS "-fno-rtti" )
 
 ## Compiling other code using my pass
 Finally, I have a special CMake macro for making executable that compile using my pass. 
-
-An aside: I'm also using 
 
 ```cmake
 
