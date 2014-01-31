@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Quick LLVM Tricks
-description: Reiterating a trick I learned for registering LLVM passes automatically with Clang, rather than needing to go through `opt`, and some other gems.
+description: Reiterating a trick I learned for registering LLVM passes automatically with Clang, and some other gems.
 ---
 
 ## Registering passes automatically.
