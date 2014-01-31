@@ -15,7 +15,32 @@
       <script src="{{ site.base }}/js/bootstrap.min.js"></script>
 
         <div class="container">
-
+          
+          <div class="header">
+  
+            <ul class="nav nav-pills pull-right">
+              {% assign shorturl = page.url | replace:'index.html','' %}
+              {% for item in site.navigation %}
+                <li {% if item.link == shorturl %}class="active"{% endif %}>
+                  {% if item.link contains 'http' %}
+                  <a href="{{ item.link }}">
+                  {% else %}
+                  <a href="{{ site.base }}{{ item.link }}" >
+                  {% endif %}
+          
+                    {% if item.icon %}
+                    <img src="{{ site.base }}{{ item.icon }}" class="icon-off" style="height:20px" />
+                    {% endif %}
+                              
+                    {{ item.title }}
+          
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+            <h2>Brandon Holt</h2>
+          </div>
+          
           {{ content }}
           
           

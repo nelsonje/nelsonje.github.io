@@ -1,26 +1,6 @@
 ---
 layout: base
 ---
-<div class="header">
-  <ul class="nav nav-pills pull-right">
-    {% assign shorturl = 'blah' %}
-    {% for item in site.navigation %}
-      <li {% if item.link == shorturl %}class="active"{% endif %}>
-        <a href="{{ site.base }}{{ item.link }}" >
-          
-          {% if item.icon %}
-          <img src="{{ site.base }}{{ item.icon }}" class="icon-off" style="height:16px" />
-          {% endif %}
-                              
-          {{ item.title }}
-          
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-  <h2>Brandon Holt</h2>
-</div>
-
 
 
 <h1>{{ page.title }}</h1>
