@@ -19,6 +19,12 @@ static RegisterStandardPasses MyPassRegistration(PassManagerBuilder::EP_EarlyAsP
   });
 ```
 
+And then to run, simply tell clang to load your shared library (arguments to be passed to clang need to be prefaced with `-Xclang`):
+
+```bash
+$ clang++ -Xclang -load -Xclang /path/to/LLVMMyPass.so
+```
+
 ## "Easy" function annotations
 Here's a way to get arbitrary annotations on functions down into your LLVM pass. GCC has long had this "annotate" attribute that allows arbitrary strings to be attached to things like variable declarations and functions, and Clang supports the same syntax. Adding the attribute looks like this:
 
