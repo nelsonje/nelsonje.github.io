@@ -54,3 +54,45 @@ Seeing that it's searching for the C++ standard headers in `/opt/llvm/head/inclu
 ```bash
 $ ln -s /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/c++/v1 $prefix/include/c++/v1
 ```
+
+## Building my pass
+Then to build my pass (out of source), I adapted something from [LLVM's CMake instructions](http://llvm.org/docs/CMake.html#cmake-out-of-source-pass), but to make sure I'm using the correct version of LLVM, I explicitly point it to the version built above:
+
+```cmake
+set( LLVM_DIR "${LLVM_ROOT}/share/llvm/cmake" )
+set( CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${LLVM_DIR} )
+find_package(LLVM)
+include(AddLLVM)
+add_definitions(${LLVM_DEFINITIONS})
+include_directories(${LLVM_INCLUDE_DIRS})
+link_directories(${LLVM_LIBRARY_DIRS})
+
+add_llvm_loadable_module( LLVMMyPass ${SOURCES} )
+set_target_properties( LLVMMyPass PROPERTIES COMPILE_FLAGS "-fno-rtti" )
+```
+
+## Compiling other code using my pass
+Finally, I have a special CMake macro for making executable that compile using my pass. 
+
+An aside: I'm also using 
+
+```cmake
+
+get_property( MY_PASS_LIB TARGET LLVMMyPass  PROPERTY LOCATION )
+
+macro(add_grappaclang_exe target)
+  add_executable(${target} ${ARGN})
+  add_dependencies(${target} LLVMMyPass)
+  
+  # make each of the individual .cpp files dependent on the 'compiler' target (my custom pass)
+  set_source_files_properties(${ARGN} PROPERTIES
+    OBJECT_DEPENDS LLVMMyPass
+  )
+  
+  # load the 
+  set_target_properties(${target} PROPERTIES
+    COMPILE_FLAGS       "-Xclang -load -Xclang ${MY_PASS_LIB}"
+  )
+endmacro()
+```
+
