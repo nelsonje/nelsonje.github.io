@@ -1,5 +1,6 @@
 name: Brandon Holt
-markdown: redcarpet  
+description: Potentially helpful tips and tricks I've learned or made up.
+markdown: redcarpet
 pygments: true
 highlighter: pygments
 
@@ -7,6 +8,8 @@ redcarpet:
     extensions: ["with_toc_data"]
 
 base: ''
+
+url: http://homes.cs.washington.edu/~bholt/
 
 permalink: /posts/:title.html
 
