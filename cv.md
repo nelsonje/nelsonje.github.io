@@ -8,6 +8,7 @@ I am interested in helping programs scale from workstations up to huge machines 
 
 ### Education
 * [University of Washington](http://uw.edu) - [Department of Computer Science & Engineering](http://cs.washington.edu)
+  - Master of Science (Dec 2013)
   - PhD (in progress)
   - **Advisors**: Luis Ceze & Mark Oskin
 
