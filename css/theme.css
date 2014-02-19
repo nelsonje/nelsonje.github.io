@@ -26,6 +26,12 @@ font-family: News Cycle;
   font-weight: bold;
 }
 
+.nav img {
+/*  background-color: #222;*/
+  padding: 0px;
+  margin: 0px;
+}
+
 code {
   color: #222;
 }

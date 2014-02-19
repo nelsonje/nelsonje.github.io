@@ -27,4 +27,7 @@ navigation:
       link: /posts.html
     - title: 
       link: http://github.com/bholt
-      icon: /img/GitHub-Mark-32px.png
+      icon: /img/GitHub-Mark-24px.png
+    - title: 
+      link: http://twitter.com/holtbg
+      icon: /img/twitter_logo_blue.png
