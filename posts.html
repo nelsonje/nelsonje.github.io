@@ -1,0 +1,31 @@
+---
+layout: default
+title: Posts
+description: Potentially-helpful tidbits I've learned or made up.
+---
+
+<ul class="media-list">
+{% for post in site.posts %}
+    {% if post.shortnews %}
+        <li class="shortnews">
+            <span class="date">{{ post.date | date_to_long_string }}</span>
+            {{ post.content }}
+        </li>
+    {% else %}
+        <li class="media">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="panel-title">
+                <b><a href="{{ site.base }}{{ post.url }}">{{ post.title }}</a></b>
+                <span class="text-muted pull-right small">{{ post.date | date_to_long_string }}</span>
+              </div>
+            </div>
+            <div class="panel-body">
+              {% if post.description %}{{ post.description }}{% endif %}
+            </div>
+          </div>
+        </li>
+    {% endif %}
+{% endfor %}
+</ul>
+

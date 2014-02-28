@@ -1,0 +1,33 @@
+name: Brandon Holt
+description: Potentially helpful tips and tricks I've learned or made up.
+markdown: redcarpet
+pygments: true
+highlighter: pygments
+
+redcarpet:
+    extensions: ["with_toc_data"]
+
+base: ''
+
+url: http://homes.cs.washington.edu/~bholt/
+
+permalink: /posts/:title.html
+
+exclude: [README.md, Makefile]
+
+# Navigation bar links.
+navigation:
+    - title: Home
+      link: /
+    - title: Projects
+      link: /projects.html
+    - title: CV
+      link: /cv.html
+    - title: Posts
+      link: /posts.html
+    - title: 
+      link: http://github.com/bholt
+      icon: /img/GitHub-Mark-24px.png
+    - title: 
+      link: http://twitter.com/holtbg
+      icon: /img/twitter_logo_blue.png
