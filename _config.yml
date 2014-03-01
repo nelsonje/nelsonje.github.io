@@ -1,5 +1,5 @@
-name: Brandon Holt
-description: Potentially helpful tips and tricks I've learned or made up.
+name: Jacob Nelson
+description: Thoughts on stuff
 markdown: redcarpet
 pygments: true
 highlighter: pygments
@@ -9,7 +9,7 @@ redcarpet:
 
 base: ''
 
-url: http://homes.cs.washington.edu/~bholt/
+url: http://homes.cs.washington.edu/~nelson/
 
 permalink: /posts/:title.html
 
@@ -26,8 +26,8 @@ navigation:
     - title: Posts
       link: /posts.html
     - title: 
-      link: http://github.com/bholt
+      link: http://github.com/nelsonje
       icon: /img/GitHub-Mark-24px.png
     - title: 
-      link: http://twitter.com/holtbg
+      link: http://twitter.com/nelsonje
       icon: /img/twitter_logo_blue.png
