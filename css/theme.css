@@ -1,28 +1,26 @@
 /* Space out content a bit */
 body {
-/*  font-family: 'News Cycle', sans-serif;*/
-/*  font-family: 'Helvetica Neue', sans-serif;*/
-  font-family: 'Source Sans Pro', News Cycle, sans-serif;
-  font-weight: 300;
-  font-size: 15px;
-  padding-top: 5px;
-  padding-bottom: 10px;
+    font-family: 'Computer Modern Bright', serif;
+    font-weight: 300;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 
 .highlight, pre, code {
-  font-family: Inconsolata, monospace;
+  font-family: 'Computer Modern Typewriter Light', monospace;
 }
 
 div.header {
-  font-family: News Cycle;
+  font-family: 'Computer Modern Bright Semibold', serif;
 }
 div.header h2, div.panel-title {
-  font-family: News Cycle;
+  font-family: 'Computer Modern Bright Semibold', serif;
   font-weight: normal;
 }
 
-h1, h2, h3 {
-font-family: News Cycle;
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Computer Modern Bright Semibold', serif;
   font-weight: bold;
 }
 

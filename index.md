@@ -4,51 +4,29 @@ title: Home
 tagline: University of Washington
 ---
 
-<!-- ![profile](img/brandon_coast.jpg) -->
-<div class="span5 pull-right" style="padding-left:20px">
+<div class="span5 pull-right" style="padding-left:10px">
   <div>
-    <img src="img/brandon_coast.jpg" class="img-rounded"/>
+    <img src="img/jakewall-flipped.jpg" class="img-rounded" width=160/>
   </div>
 </div>
+I am a final-year PhD student in the department of Computer Science and Engineering at the University of Washington. I am advised by [Luis Ceze](http://www.cs.washington.edu/homes/luisceze/), [Mark Oskin](http://www.cs.washington.edu/homes/oskin), and [Simon Kahan](http://www.systemsbiology.org/simon-kahan).  We are part of the [Sampa](http://sampa.cs.washington.edu) research group.
 
-## About Me
-I am a grad student at the University of Washington, pursuing a PhD in Computer Science and Engineering. My research interests include exploring programming models, languages, and compilers for the purposes of exposing and expressing parallelism in a way that existing architectures can use it. My research is done as part of the Computer Architecture group at UW ([Sampa](http://sampa.cs.washington.edu)), with co-advisors [Luis Ceze](http://www.cs.washington.edu/homes/luisceze/) and [Mark Oskin](http://www.cs.washington.edu/homes/oskin). With them, I am working on the [Grappa](http://grappa.io) project, an effort to improve performance of irregular applications on commodity clusters in software.
+My interests are in the areas of computer architecture and high-performance computing. My primary project is [Grappa](http://grappa.io), a runtime system designed to improve the performance of irregular applications (espcially graph applications) on commodity clusters. I have also worked in approximate computing, deterministic parallel computing, and speculative multithreading.
 
-## Research Interests
-I'm interested in helping people solve tough problems using the most powerful computer they have available. 
+Publications
+------------
 
-Right now, the *tough problems* people seem to be facing involve analyzing and understanding large, irregular data sets (including such "Big Data" problems as social network analytics). These problems are particularly challenging because their execution is highly data-dependent and unpredictable, wreaking havoc on systems which are optimized for regular access patterns.
+- **[Grappa: A Latency-Tolerant Runtime for Large-Scale Irregular Applications](http://sampa.cs.washington.edu/papers/grappa-tr-2014-02.pdf)**. J. Nelson, B. Holt, B. Myers, P. Briggs, L. Ceze, S. Kahan, M. Oskin. *UW CSE Tech Report 14-02-01*, February 2014.
 
-For many people---in particular, most data scientists---the *most powerful computer* they have access to is actually pretty beefy: a compute cluster, even if it's just an on-demand cluster from the cloud. These highly-parallel distributed-memory machines are notoriously difficult to do useful things with.
+- **[Approximate Storage in Solid-State Memories](http://homes.cs.washington.edu/~asampson/media/papers/approxstorage-micro2013.pdf)**. A. Sampson, J. Nelson, K. Strauss, L. Ceze. In *[MICRO 2013](http://www.microarch.org/micro46/)*. Selected to appear as an expanded version in [ACM TOCS](http://tocs.acm.org/).
 
-Solving these problems requires being willing to change any part of the traditional "stack": hardware, compiler, runtime, programming language, or tools. I enjoy hacking LLVM to automatically extract communication, develop fancy C++11 interfaces to runtimes, and exploring how to leverage high-level program information to optimize low-level runtime calls.
+- **[Flat Combining Synchronized Global Data Structures](http://homes.cs.washington.edu/~bholt/pubs/holt-pgas13.pdf)**. B. Holt, J. Nelson, B. Myers, P. Briggs, L. Ceze, S. Kahan, M. Oskin. *[7th International Conference on PGAS Programming Models (PGAS)](http://www.pgas2013.org.uk/)*, October 2013.
 
-## Projects
-Read more about various work in progress and past on the [Projects](projects.html) page. A few highlights:
+- **[Crunching large graphs with commodity processors](https://www.usenix.org/legacy/event/hotpar11/tech/final_files/Nelson.pdf)**. J. Nelson, B. Myers, A. H. Hunter, P. Briggs, L. Ceze, C. Ebeling, D. Grossman, S. Kahan, M. Oskin. In *[HOTPAR 2011](https://www.usenix.org/legacy/events/hotpar11/index.html)*.
 
-* [Grappa](projects.html#Grappa): Picking up the slack in commodity clusters for irregular applications.
-* [Igor](projects.html#Igor): A system to make it easier to run parameter sweeps and collect data from experiments.
+- **[RCDC: A Relaxed Consistency Deterministic Computer](http://www.cs.washington.edu/homes/devietti/papers/devietti.rcdc.asplos.2011.pdf)**. J. Devietti, J. Nelson, T. Bergan, L. Ceze, D. Grossman. In *[ASPLOS 2011](http://asplos11.cs.ucr.edu/)*.
 
-## Personal
-Despite appearances, in addition to locking myself up in a room coding all day, I do other things as well. I enjoy hiking, soccer, frisbee, and sci-fi. I particularly like mountains, in which Washington is not disappointing me.
+- **[Dynamic Concurrency Discovery for Very Large Windows of Execution](http://homes.cs.washington.edu/~nelson/Nelson-ConcurrencyDiscovery-PESPMA2009.pdf)**. J. Nelson, L. Ceze. In *PESPMA 2009*.
 
 
-<!-- <div class="container">
- <div class="fluid-row">
-    <div class="span7">
 
-    </div>
-    <div class="span4">
-      <img src="img/brandon_coast.jpg" class="img-polaroid" style="height=100px"/>
-      <ul class="thumbnails">
-        <li></li>
-        <li class="span4">
-          <div class="alert alert-info">
-            <h1>GitHub</h1>
-            <a class="btn" href="http://github.com/bholt">See my repos &raquo;</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div> -->

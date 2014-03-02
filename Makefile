@@ -25,4 +25,4 @@ CSEHOST := bicycle.cs.washington.edu
 deploy: BUILDARGS := --config _config.yml,_config_sandbox.yml
 deploy: clean all
 	jekyll build --config _config.yml,_deploy.yml
-#	rsync --compress --recursive --checksum --itemize-changes --delete _site/ $(CSEHOST):/cse/web/homes/nelson/new
+	rsync --compress --recursive --checksum --itemize-changes --delete _site/ $(CSEHOST):/cse/web/homes/nelson/new-site

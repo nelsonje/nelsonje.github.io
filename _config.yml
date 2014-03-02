@@ -1,5 +1,5 @@
 name: Jacob Nelson
-description: Thoughts on stuff
+description: UW CSE grad student
 markdown: redcarpet
 pygments: true
 highlighter: pygments
@@ -17,17 +17,17 @@ exclude: [README.md, Makefile]
 
 # Navigation bar links.
 navigation:
-    - title: Home
-      link: /
-    - title: Projects
-      link: /projects.html
-    - title: CV
-      link: /cv.html
-    - title: Posts
-      link: /posts.html
+#    - title: Home
+#      link: /
+#    - title: Projects
+#      link: /projects.html
+#    - title: CV
+#      link: /cv.html
+#    - title: Posts
+#      link: /posts.html
     - title: 
       link: http://github.com/nelsonje
       icon: /img/GitHub-Mark-24px.png
-    - title: 
-      link: http://twitter.com/nelsonje
-      icon: /img/twitter_logo_blue.png
+    # - title: 
+    #   link: http://twitter.com/nelsonje
+    #   icon: /img/twitter_logo_blue.png
