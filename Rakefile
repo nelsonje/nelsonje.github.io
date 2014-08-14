@@ -36,5 +36,5 @@ task :post do
     post.puts "---"
   end
   
-  system "mate #{filename}"
+  system "emacsclient --no-wait #{filename}"
 end # task :post
