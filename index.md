@@ -16,7 +16,9 @@ My interests are in the areas of computer architecture and high-performance comp
 Publications
 ------------
 
-- **[Grappa: A Latency-Tolerant Runtime for Large-Scale Irregular Applications](http://sampa.cs.washington.edu/papers/grappa-tr-2014-02.pdf)**. J. Nelson, B. Holt, B. Myers, P. Briggs, L. Ceze, S. Kahan, M. Oskin. *UW CSE Tech Report 14-02-01*, February 2014.
+- **[Latency-Tolerant Software Distributed Shared Memory](http://sampa.cs.washington.edu/papers/grappa-tr-14-05-03.pdf)**. J. Nelson, B. Holt, B. Myers, P. Briggs, L. Ceze, S. Kahan, M. Oskin. *UW CSE Tech Report 14-05-03*, May 2014.
+
+- **[Grappa: A Latency-Tolerant Runtime for Large-Scale Irregular Applications](http://sampa.cs.washington.edu/papers/grappa-wrsc-2014.pdf)**. J. Nelson, B. Holt, B. Myers, P. Briggs, L. Ceze, S. Kahan, M. Oskin. *[International Workshop on Rack-Scale Computing (WRSC w/EuroSys)](http://research.microsoft.com/en-us/events/wrsc2014/)*, April 2014.
 
 - **[Approximate Storage in Solid-State Memories](http://homes.cs.washington.edu/~asampson/media/papers/approxstorage-micro2013.pdf)**. A. Sampson, J. Nelson, K. Strauss, L. Ceze. In *[MICRO 2013](http://www.microarch.org/micro46/)*. Selected to appear as an expanded version in [ACM TOCS](http://tocs.acm.org/).
 
