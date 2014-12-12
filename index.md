@@ -13,10 +13,16 @@ I am a final-year PhD student in the department of Computer Science and Engineer
 
 My interests are in the areas of computer architecture and high-performance computing. My primary project is [Grappa](http://grappa.io), a runtime system designed to improve the performance of irregular applications (espcially graph applications) on commodity clusters. I have also worked in approximate computing, deterministic parallel computing, and speculative multithreading.
 
+[My CV](pubs/jacob-nelson-cv.pdf)
+
 Publications
 ------------
 
 - **[Latency-Tolerant Software Distributed Shared Memory](http://sampa.cs.washington.edu/papers/grappa-tr-14-05-03.pdf)**. J. Nelson, B. Holt, B. Myers, P. Briggs, L. Ceze, S. Kahan, M. Oskin. *UW CSE Tech Report 14-05-03*, May 2014.
+
+- **SNNAP: Approximate Computing on Programmable SoCs via Neural Acceleration**. T. Moreau, M. Wyse, J. Nelson, A. Sampson, H. Esmaeilzadeh, L. Ceze, M. Oskin. To appear in *HPCA 2015*.
+
+- **Radish: Compiling Efficient Query Plans for Distributed Shared Memory**. B. Myers, D. Halperin, J. Nelson, M. Oskin, B. Howe. *UW CSE Tech Report 14-10-01*, 2014.
 
 - **[Grappa: A Latency-Tolerant Runtime for Large-Scale Irregular Applications](http://sampa.cs.washington.edu/papers/grappa-wrsc-2014.pdf)**. J. Nelson, B. Holt, B. Myers, P. Briggs, L. Ceze, S. Kahan, M. Oskin. *[International Workshop on Rack-Scale Computing (WRSC w/EuroSys)](http://research.microsoft.com/en-us/events/wrsc2014/)*, April 2014.
 
