@@ -9,7 +9,7 @@ tagline: University of Washington
 <!--     <img src="img/jakewall-flipped.jpg" class="img-rounded" width=160/> -->
 <!--   </div> -->
 <!-- </div> -->
-I am a ~~final-year PhD student~~ postdoc in the department of Computer Science and Engineering at the University of Washington. I am advised by [Luis Ceze](http://www.cs.washington.edu/homes/luisceze/), [Mark Oskin](http://www.cs.washington.edu/homes/oskin), and [Simon Kahan](http://www.systemsbiology.org/simon-kahan).  We are part of the [Sampa](http://sampa.cs.washington.edu) research group.
+I am a <s>final-year PhD student</s>postdoc in the department of Computer Science and Engineering at the University of Washington. I am advised by [Luis Ceze](http://www.cs.washington.edu/homes/luisceze/), [Mark Oskin](http://www.cs.washington.edu/homes/oskin), and [Simon Kahan](http://www.systemsbiology.org/simon-kahan).  We are part of the [Sampa](http://sampa.cs.washington.edu) research group.
 
 My interests are in the areas of computer architecture and high-performance computing. My primary project is [Grappa](http://grappa.io), a runtime system designed to improve the performance of irregular applications (espcially graph applications) on commodity clusters. I have also worked in approximate computing, deterministic parallel computing, and speculative multithreading.
 
