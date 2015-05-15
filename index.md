@@ -4,25 +4,28 @@ title: Home
 tagline: University of Washington
 ---
 
-<!-- <div class="span5 pull-right" style="padding-left:10px"> -->
-<!--   <div> -->
-<!--     <img src="img/jakewall-flipped.jpg" class="img-rounded" width=160/> -->
-<!--   </div> -->
-<!-- </div> -->
-I am a <s>final-year PhD student</s> postdoc in the department of Computer Science and Engineering at the University of Washington. I am advised by [Luis Ceze](http://www.cs.washington.edu/homes/luisceze/), [Mark Oskin](http://www.cs.washington.edu/homes/oskin), and [Simon Kahan](http://www.systemsbiology.org/simon-kahan).  We are part of the [Sampa](http://sampa.cs.washington.edu) research group.
+<div class="span5 pull-right" style="padding-left:10px">
+  <div>
+    <img src="img/jakeface2.jpg" class="img-rounded" width=160 height=213/>
+  </div>
+</div>
 
-My interests are in the areas of computer architecture and high-performance computing. My primary project is [Grappa](http://grappa.io), a runtime system designed to improve the performance of irregular applications (espcially graph applications) on commodity clusters. I have also worked in approximate computing, deterministic parallel computing, and speculative multithreading.
+I am a postdoc in the department of Computer Science and Engineering at the University of Washington. I was formerly a grad student in the [Sampa](http://sampa.cs.washington.edu) research group at UW CSE; I completed my Ph.D. in December 2014 under the supervision of [Luis Ceze](http://www.cs.washington.edu/homes/luisceze/), [Mark Oskin](http://www.cs.washington.edu/homes/oskin), and [Simon Kahan](http://www.systemsbiology.org/simon-kahan).
+
+My interests are in the areas of computer architecture and runtime systems for big data and high-performance computing. My primary project is [Grappa](http://grappa.io), a runtime system designed to improve the performance of data-intensive irregular applications on commodity clusters. I have also worked in approximate computing, deterministic parallel computing, and speculative multithreading.
 
 [My CV](pubs/jacob-nelson-cv.pdf)
+
+[My Thesis](pubs/jacob-nelson-thesis.pdf)
 
 Publications
 ------------
 
-- **[Latency-Tolerant Software Distributed Shared Memory](http://sampa.cs.washington.edu/papers/grappa-tr-14-05-03.pdf)**. J. Nelson, B. Holt, B. Myers, P. Briggs, L. Ceze, S. Kahan, M. Oskin. *UW CSE Tech Report 14-05-03*, May 2014.
+- **Latency-Tolerant Software Distributed Shared Memory**. J. Nelson, B. Holt, B. Myers, P. Briggs, L. Ceze, S. Kahan, M. Oskin. To appear in *USENIX ATC*, July 2015. [Earlier tech report version](http://sampa.cs.washington.edu/papers/grappa-tr-14-05-03.pdf).
 
-- **SNNAP: Approximate Computing on Programmable SoCs via Neural Acceleration**. T. Moreau, M. Wyse, J. Nelson, A. Sampson, H. Esmaeilzadeh, L. Ceze, M. Oskin. To appear in *HPCA 2015*.
+- **[SNNAP: Approximate Computing on Programmable SoCs via Neural Acceleration](http://sampa.cs.washington.edu/papers/snnap-hpca2015.pdf)**. T. Moreau, M. Wyse, J. Nelson, A. Sampson, H. Esmaeilzadeh, L. Ceze, M. Oskin. In *[HPCA 2015](http://darksilicon.org/hpca/)*.
 
-- **Radish: Compiling Efficient Query Plans for Distributed Shared Memory**. B. Myers, D. Halperin, J. Nelson, M. Oskin, B. Howe. *UW CSE Tech Report 14-10-01*, 2014.
+- **[Radish: Compiling Efficient Query Plans for Distributed Shared Memory](ftp://ftp.cs.washington.edu/tr/2014/10/UW-CSE-14-10-01.pdf)**. B. Myers, D. Halperin, J. Nelson, M. Oskin, B. Howe. *UW CSE Tech Report 14-10-01*, 2014.
 
 - **[Grappa: A Latency-Tolerant Runtime for Large-Scale Irregular Applications](http://sampa.cs.washington.edu/papers/grappa-wrsc-2014.pdf)**. J. Nelson, B. Holt, B. Myers, P. Briggs, L. Ceze, S. Kahan, M. Oskin. *[International Workshop on Rack-Scale Computing (WRSC w/EuroSys)](http://research.microsoft.com/en-us/events/wrsc2014/)*, April 2014.
 
