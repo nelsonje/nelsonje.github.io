@@ -21,7 +21,7 @@ My interests are in the areas of computer architecture and runtime systems for b
 Publications
 ------------
 
-- **Latency-Tolerant Software Distributed Shared Memory**. J. Nelson, B. Holt, B. Myers, P. Briggs, L. Ceze, S. Kahan, M. Oskin. To appear in *USENIX ATC*, July 2015. [Earlier tech report version](http://sampa.cs.washington.edu/papers/grappa-tr-14-05-03.pdf).
+- **[Latency-Tolerant Software Distributed Shared Memory](https://www.usenix.org/system/files/conference/atc15/atc15-paper-nelson_update.pdf)**. J. Nelson, B. Holt, B. Myers, P. Briggs, L. Ceze, S. Kahan, M. Oskin. Best paper at *USENIX ATC*, July 2015.
 
 - **[SNNAP: Approximate Computing on Programmable SoCs via Neural Acceleration](http://sampa.cs.washington.edu/papers/snnap-hpca2015.pdf)**. T. Moreau, M. Wyse, J. Nelson, A. Sampson, H. Esmaeilzadeh, L. Ceze, M. Oskin. In *[HPCA 2015](http://darksilicon.org/hpca/)*.
 
