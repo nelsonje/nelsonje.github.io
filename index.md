@@ -23,6 +23,12 @@ Publications
 
 - **[Latency-Tolerant Software Distributed Shared Memory](https://www.usenix.org/system/files/conference/atc15/atc15-paper-nelson_update.pdf)**. J. Nelson, B. Holt, B. Myers, P. Briggs, L. Ceze, S. Kahan, M. Oskin. Best paper at *USENIX ATC*, July 2015.
 
+- **Scalable Adaptive Label Propagation in Grappa**. G. Farnadi, Z. Mahdavifar, I. Keller, J. Nelson, A. Teredesai, M.-F. Moens, M. De Cock. . Special Session on Intelligent Mining, *IEEE Big Data 2015*, October 2015.
+  
+- **Using the Parallel Research Kernels to Study PGAS Runtimes**. R. Van der Wijngaart, S. Sridharan, A. Kayi, G. Jost, J. Hammond, T. Mattson, J. Nelson. *International Conference on PGAS Programming Models (PGAS)*, September 2015.
+
+- **A 10G NetFPGA Prototype for In-Network Aggregation**. V. Lee, J. Nelson, M. Oskin, L. Ceze. *Workshop on Architectural Research Prototyping (WARP w/ISCA)*, June 2015.
+
 - **[SNNAP: Approximate Computing on Programmable SoCs via Neural Acceleration](http://sampa.cs.washington.edu/papers/snnap-hpca2015.pdf)**. T. Moreau, M. Wyse, J. Nelson, A. Sampson, H. Esmaeilzadeh, L. Ceze, M. Oskin. In *[HPCA 2015](http://darksilicon.org/hpca/)*.
 
 - **[Radish: Compiling Efficient Query Plans for Distributed Shared Memory](ftp://ftp.cs.washington.edu/tr/2014/10/UW-CSE-14-10-01.pdf)**. B. Myers, D. Halperin, J. Nelson, M. Oskin, B. Howe. *UW CSE Tech Report 14-10-01*, 2014.
