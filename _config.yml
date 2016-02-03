@@ -1,6 +1,6 @@
 name: Jacob Nelson
 description: UW CSE grad student
-markdown: redcarpet
+markdown: kramdown
 pygments: true
 highlighter: pygments
 
