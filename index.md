@@ -12,7 +12,7 @@ tagline: University of Washington
 
 I am a postdoc in the department of Computer Science and Engineering at the University of Washington. I was formerly a grad student in the [Sampa](http://sampa.cs.washington.edu) research group at UW CSE; I completed my Ph.D. in December 2014 under the supervision of [Luis Ceze](http://www.cs.washington.edu/homes/luisceze/), [Mark Oskin](http://www.cs.washington.edu/homes/oskin), and [Simon Kahan](http://www.systemsbiology.org/simon-kahan).
 
-My interests are in the areas of computer architecture and runtime systems for big data and high-performance computing. My primary project is [Grappa](http://grappa.io), a runtime system designed to improve the performance of data-intensive irregular applications on commodity clusters. I have also worked in approximate computing, deterministic parallel computing, and speculative multithreading.
+I work at the intersection of computer architecture and systems. I explore how software and hardware can be built to make applications in big data and high-performance computing faster and more efficient. My primary project right now is [Grappa](http://grappa.io), a runtime system designed to improve the performance of data-intensive and irregular applications on commodity clusters. I have also worked in approximate computing, deterministic parallel computing, and speculative multithreading.
 
 I'm on the job market! I'm looking for opportunities in industry to do research and advanced development for faster, more efficient large-scale systems. 
 
