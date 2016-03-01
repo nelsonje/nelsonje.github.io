@@ -23,7 +23,7 @@ I'm on the job market! I'm looking for opportunities in industry to do research 
 Publications
 ------------
 
-- **[Latency-Tolerant Software Distributed Shared Memory](https://www.usenix.org/system/files/conference/atc15/atc15-paper-nelson_update.pdf)**. J. Nelson, B. Holt, B. Myers, P. Briggs, L. Ceze, S. Kahan, M. Oskin. Best paper at *USENIX ATC*, July 2015.
+- **[Latency-Tolerant Software Distributed Shared Memory](https://www.usenix.org/conference/atc15/technical-session/presentation/nelson)**. J. Nelson, B. Holt, B. Myers, P. Briggs, L. Ceze, S. Kahan, M. Oskin. Best paper at *USENIX ATC*, July 2015.
 
 - **Scalable Adaptive Label Propagation in Grappa**. G. Farnadi, Z. Mahdavifar, I. Keller, J. Nelson, A. Teredesai, M.-F. Moens, M. De Cock. Special Session on Intelligent Mining, *IEEE Big Data 2015*, October 2015.
   
