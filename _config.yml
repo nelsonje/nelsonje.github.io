@@ -1,11 +1,5 @@
 name: Jacob Nelson
-description: UW CSE grad student
-markdown: redcarpet
-pygments: true
-highlighter: pygments
-
-redcarpet:
-    extensions: ["with_toc_data"]
+description: UW CSE computer scientist
 
 base: ''
 

@@ -4,11 +4,7 @@ title: Home
 tagline: University of Washington
 ---
 
-<div class="span5 pull-right" style="padding-left:10px">
-  <div>
-    <img src="img/jakeface2.jpg" class="img-rounded" width=160 height=213/>
-  </div>
-</div>
+![Me]({{ site.url }}/img/jakeface2.jpg){: width=160 height=213 class="img-rounded" style="float: right; margin-left: 10px;"}
 
 I am a postdoc in the department of Computer Science and Engineering at the University of Washington. I was formerly a grad student in the [Sampa](http://sampa.cs.washington.edu) research group at UW CSE; I completed my Ph.D. in December 2014 under the supervision of [Luis Ceze](http://www.cs.washington.edu/homes/luisceze/), [Mark Oskin](http://www.cs.washington.edu/homes/oskin), and [Simon Kahan](http://www.systemsbiology.org/simon-kahan).
 
