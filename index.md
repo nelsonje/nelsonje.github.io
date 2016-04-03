@@ -8,11 +8,11 @@ tagline: University of Washington
 
 I am a postdoc in the department of Computer Science and Engineering at the University of Washington. I was formerly a grad student in the [Sampa](http://sampa.cs.washington.edu) research group at UW CSE; I completed my Ph.D. in December 2014 under the supervision of [Luis Ceze](http://www.cs.washington.edu/homes/luisceze/), [Mark Oskin](http://www.cs.washington.edu/homes/oskin), and [Simon Kahan](http://www.systemsbiology.org/simon-kahan).
 
-I work at the intersection of computer architecture and systems. I explore how software and hardware can be built to make applications in big data and high-performance computing faster and more efficient. My primary project right now is [Grappa](http://grappa.io), a runtime system designed to improve the performance of data-intensive and irregular applications on commodity clusters. I have also worked in approximate computing, deterministic parallel computing, and speculative multithreading.
+I work at the intersection of computer architecture and systems. I explore how software and hardware can be built to make applications in big data and high-performance computing faster and more efficient. My primary project right now is [Grappa](http://grappa.io), a runtime system designed to improve the performance of data-intensive and irregular applications fon commodity clusters. I have also worked in approximate computing, deterministic parallel computing, and speculative multithreading.
 
 I'm on the job market! I'm looking for opportunities in industry to do research and advanced development for faster, more efficient large-scale systems. 
 
-[My CV](pubs/jacob-nelson-cv.pdf) and [research statement](pubs/jacob-nelson-research-statement.pdf)
+[My CV](pubs/jacob-nelson-cv.pdf)/[resume](pubs/jacob-nelson-resume.pdf) and [research statement](pubs/jacob-nelson-research-statement.pdf)
 
 [My Thesis](pubs/jacob-nelson-thesis.pdf)
 
@@ -20,6 +20,8 @@ Publications
 ------------
 
 - **[Latency-Tolerant Software Distributed Shared Memory](https://www.usenix.org/conference/atc15/technical-session/presentation/nelson)**. J. Nelson, B. Holt, B. Myers, P. Briggs, L. Ceze, S. Kahan, M. Oskin. Best paper at *USENIX ATC*, July 2015.
+
+- **Comparing Runtime Systems with Exascale Ambitions Using the Parallel Research Kernels**. R. Van der Wijngaart, A. Kayi, J. Hammond, T. Mattson, G. Jost, T. St. John, S. Sridharan, J. Abercrombie, J. Nelson. To appear in *International Conference on Supercomputing (ISC)*, June 2016.
 
 - **Scalable Adaptive Label Propagation in Grappa**. G. Farnadi, Z. Mahdavifar, I. Keller, J. Nelson, A. Teredesai, M.-F. Moens, M. De Cock. Special Session on Intelligent Mining, *IEEE Big Data 2015*, October 2015.
   
