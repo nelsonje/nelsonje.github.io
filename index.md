@@ -12,7 +12,7 @@ I work at the intersection of computer architecture and systems. I explore how s
 
 I'm on the job market! I'm looking for opportunities in industry to do research and advanced development for faster, more efficient large-scale systems. 
 
-[My CV](pubs/jacob-nelson-cv.pdf)/[resume](pubs/jacob-nelson-resume.pdf) and [research statement](pubs/jacob-nelson-research-statement.pdf)
+[My resume](pubs/jacob-nelson-resume.pdf), [full CV](pubs/jacob-nelson-cv.pdf), and [research statement](pubs/jacob-nelson-research-statement.pdf)
 
 [My Thesis](pubs/jacob-nelson-thesis.pdf)
 
