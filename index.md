@@ -10,9 +10,7 @@ I am a postdoc in the department of Computer Science and Engineering at the Univ
 
 I work at the intersection of computer architecture and systems. I explore how software and hardware can be built to make applications in big data and high-performance computing faster and more efficient. My primary project right now is [Grappa](http://grappa.io), a runtime system designed to improve the performance of data-intensive and irregular applications fon commodity clusters. I have also worked in approximate computing, deterministic parallel computing, and speculative multithreading.
 
-I'm on the job market! I'm looking for opportunities in industry to do research and advanced development for faster, more efficient large-scale systems. 
-
-[My resume](pubs/jacob-nelson-resume.pdf), [full CV](pubs/jacob-nelson-cv.pdf), and [research statement](pubs/jacob-nelson-research-statement.pdf)
+[My CV](pubs/jacob-nelson-cv.pdf)
 
 [My Thesis](pubs/jacob-nelson-thesis.pdf)
 
