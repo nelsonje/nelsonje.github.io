@@ -1,9 +1,9 @@
 name: Jacob Nelson
-description: UW CSE computer scientist
+description: Computer scientist
 
 base: ''
 
-url: http://homes.cs.washington.edu/~nelson/
+url: http://nelsonje.github.io
 
 permalink: /posts/:title.html
 
