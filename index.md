@@ -8,9 +8,10 @@ tagline: University of Washington
 
 Update: I recently joined Microsoft Research! More info to come.
 
-I was formerly a grad student and then postdoc in the [Sampa](http://sampa.cs.washington.edu) research group at UW CSE; I completed my Ph.D. in December 2014 under the supervision of [Luis Ceze](http://www.cs.washington.edu/homes/luisceze/), [Mark Oskin](http://www.cs.washington.edu/homes/oskin), and [Simon Kahan](http://www.systemsbiology.org/simon-kahan). My primary project [Grappa](http://grappa.io), a runtime system designed to improve the performance of data-intensive and irregular applications fon commodity clusters.
+I work at the intersection of systems and computer architecture. I explore how software and hardware can work together to make datacenter applications faster and more efficient.
 
-I work at the intersection of computer architecture and systems. I explore how software and hardware can be built to make applications in big data and high-performance computing faster and more efficient. My primary project right now is [Grappa](http://grappa.io), a runtime system designed to improve the performance of data-intensive and irregular applications fon commodity clusters. I have also worked in approximate computing, deterministic parallel computing, and speculative multithreading.
+I was formerly a grad student and then postdoc in the [Sampa](http://sampa.cs.washington.edu) research group at UW CSE; I completed my Ph.D. in December 2014 under the supervision of [Luis Ceze](http://www.cs.washington.edu/homes/luisceze/), [Mark Oskin](http://www.cs.washington.edu/homes/oskin), and [Simon Kahan](http://www.systemsbiology.org/simon-kahan). My thesis work was [Grappa](http://grappa.io), a runtime system designed to improve the performance of data-intensive and irregular applications fon commodity clusters.
+
 
 [My CV](pubs/jacob-nelson-cv.pdf)
 
