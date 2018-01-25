@@ -10,7 +10,7 @@ I'm a member of the <a href="https://www.microsoft.com/en-us/research/group/syst
 
 I work at the intersection of systems and computer architecture. I explore how software and hardware can work together to make datacenter applications faster and more efficient. My current work focuses on accelerating the training process for deep neural networks in the cloud.
 
-See <a href="https://www.microsoft.com/en-us/research/group/systems-research-group-redmond/">my work page for research and publications.</a>
+See <a href="https://www.microsoft.com/en-us/research/people/jacnels/">my work page for research and publications.</a>
 
 <!-- I received my PhD from the <a href="https://www.cs.washington.edu">University of Washington School of Computer Science and Engineering</a> in 2014, and my BS from <a href="https://www.plu.edu/computer-science">Pacific Lutheran University</a> in 2000. I joined Microsoft Research in 2016.
 -->
