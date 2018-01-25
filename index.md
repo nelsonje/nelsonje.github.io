@@ -1,32 +1,36 @@
 ---
 layout: default
 title: Home
-tagline: University of Washington
+tagline: Microsoft Research
 ---
 
 ![Me]({{ site.url }}/img/jakeface2.jpg){: width=160 height=213 class="img-rounded" style="float: right; margin-left: 10px;"}
 
-Update: I recently joined Microsoft Research! More info to come.
+I'm a member of the <a href="https://www.microsoft.com/en-us/research/group/systems-research-group-redmond/">Systems Research Group (Redmond)</a> at Microsoft. 
 
-I work at the intersection of systems and computer architecture. I explore how software and hardware can work together to make datacenter applications faster and more efficient.
+I work at the intersection of systems and computer architecture. I explore how software and hardware can work together to make datacenter applications faster and more efficient. My current work focuses on accelerating the training process for deep neural networks in the cloud.
 
-I was formerly a grad student and then postdoc in the [Sampa](http://sampa.cs.washington.edu) research group at UW CSE; I completed my Ph.D. in December 2014 under the supervision of [Luis Ceze](http://www.cs.washington.edu/homes/luisceze/), [Mark Oskin](http://www.cs.washington.edu/homes/oskin), and [Simon Kahan](http://www.systemsbiology.org/simon-kahan). My thesis work was [Grappa](http://grappa.io), a runtime system designed to improve the performance of data-intensive and irregular applications fon commodity clusters.
+See <a href="https://www.microsoft.com/en-us/research/group/systems-research-group-redmond/">my work page for research and publications.</a>
 
+<!-- I received my PhD from the <a href="https://www.cs.washington.edu">University of Washington School of Computer Science and Engineering</a> in 2014, and my BS from <a href="https://www.plu.edu/computer-science">Pacific Lutheran University</a> in 2000. I joined Microsoft Research in 2016.
+-->
 
 [My CV](pubs/jacob-nelson-cv.pdf)
 
-[My Thesis](pubs/jacob-nelson-thesis.pdf)
+<!--[My Thesis](pubs/jacob-nelson-thesis.pdf)-->
 
+<!-- 
 Publications
 ------------
 
-- **[Latency-Tolerant Software Distributed Shared Memory](https://www.usenix.org/conference/atc15/technical-session/presentation/nelson)**. J. Nelson, B. Holt, B. Myers, P. Briggs, L. Ceze, S. Kahan, M. Oskin. Best paper at *USENIX ATC*, July 2015.
 
 - **Comparing Runtime Systems with Exascale Ambitions Using the Parallel Research Kernels**. R. Van der Wijngaart, A. Kayi, J. Hammond, T. Mattson, G. Jost, T. St. John, S. Sridharan, J. Abercrombie, J. Nelson. To appear in *International Conference on Supercomputing (ISC)*, June 2016.
 
 - **Scalable Adaptive Label Propagation in Grappa**. G. Farnadi, Z. Mahdavifar, I. Keller, J. Nelson, A. Teredesai, M.-F. Moens, M. De Cock. Special Session on Intelligent Mining, *IEEE Big Data 2015*, October 2015.
   
 - **Using the Parallel Research Kernels to Study PGAS Runtimes**. R. Van der Wijngaart, S. Sridharan, A. Kayi, G. Jost, J. Hammond, T. Mattson, J. Nelson. *International Conference on PGAS Programming Models (PGAS)*, September 2015.
+
+- **[Latency-Tolerant Software Distributed Shared Memory](https://www.usenix.org/conference/atc15/technical-session/presentation/nelson)**. J. Nelson, B. Holt, B. Myers, P. Briggs, L. Ceze, S. Kahan, M. Oskin. Best paper at *USENIX ATC*, July 2015.
 
 - **A 10G NetFPGA Prototype for In-Network Aggregation**. V. Lee, J. Nelson, M. Oskin, L. Ceze. *Workshop on Architectural Research Prototyping (WARP w/ISCA)*, June 2015.
 
@@ -48,3 +52,4 @@ Publications
 
 
 
+-->
