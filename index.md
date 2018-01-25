@@ -6,7 +6,7 @@ tagline: Microsoft Research
 
 ![Me]({{ site.url }}/img/jakeface2.jpg){: width=160 height=213 class="img-rounded" style="float: right; margin-left: 10px;"}
 
-I'm a member of the <a href="https://www.microsoft.com/en-us/research/group/systems-research-group-redmond/">Systems Research Group (Redmond)</a> at Microsoft. 
+I'm a member of the <a href="https://www.microsoft.com/en-us/research/group/systems-research-group-redmond/">Systems Group</a> at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-redmond/">Microsoft Research Redmond</a>.
 
 I work at the intersection of systems and computer architecture. I explore how software and hardware can work together to make datacenter applications faster and more efficient. My current work focuses on accelerating the training process for deep neural networks in the cloud.
 
