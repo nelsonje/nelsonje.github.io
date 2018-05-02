@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/nelsonje
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nelsonje.github.io
+  * I am nelsonje (https://keybase.io/nelsonje) on keybase.
+  * I have a public key ASAQe1JB0J-uDAqK5cY7tgbimjAt-1eDQBIdjIh8yfPCaAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120705114606c9322481b4ac7dfebcd7bec2d27ea6441ead8b9dee6e9de8605cce60a",
+      "host": "keybase.io",
+      "kid": "0120107b5241d09fae0c0a8ae5c63bb606e29a302dfb578340121d8c887cc9f3c2680a",
+      "uid": "2f046243382d4aeb4afdd6de27118719",
+      "username": "nelsonje"
+    },
+    "merkle_root": {
+      "ctime": 1525297632,
+      "hash": "90a8aa1c33e2176d62cc3fe11c1db2568fc906ea2c179288622d2bc0131124a198ae65de93ee051488987e4b3ba5277f9152f26260a8d7583d63cd77087d6d9e",
+      "hash_meta": "46a8e2dcb4639d8eb2f9c2b87b92ad76a7464ecb1716497fadd06e12c9258ffd",
+      "seqno": 2472575
+    },
+    "service": {
+      "entropy": "5Y8mNDNQXFdRB5/DTHdY03lB",
+      "hostname": "nelsonje.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.47"
+  },
+  "ctime": 1525297707,
+  "expire_in": 504576000,
+  "prev": "5d2520830b8a16df48b574018fd21b2fcaf095551c83c78e3465b761723ea411",
+  "seqno": 18,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgEHtSQdCfrgwKiuXGO7YG4powLftXg0ASHYyIfMnzwmgKp3BheWxvYWTESpcCEsQgXSUggwuKFt9ItXQBj9IbL8rwlVUcg8eONGW3YXI+pBHEIMjpzCA6TOcJ2vv9FHaeJuO1PdvkYXx4zqRdQxRRAMhDAgHCo3NpZ8RAQK4O9x/zlDKZBsJqq5KitCvq0zbL70vGw70iZSySr3RnJNRpE8QBjKraD3iXOHYNB+K/v9drh0X6YcpD+sM3DKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIC+zclOdC53u/xJNVv/cc7Gltjy5mTGsLW4/eAKzmJETo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nelsonje
+
+==================================================================
